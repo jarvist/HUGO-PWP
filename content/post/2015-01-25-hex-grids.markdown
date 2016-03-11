@@ -1,0 +1,29 @@
+---
+author: jarvistmoorefrost
+comments: true
+date: 2015-01-25 23:06:52+00:00
+layout: post
+slug: hex-grids
+title: Hex Grids
+wordpress_id: 423
+---
+
+Solid state materials pack together in a myriad of ways. The crystal structures are typically referred to with the name of the archetype compound. This ranges from fairly common English words such as 'diamond' and 'rock-salt' to, 'zinc-blend' 'wurtzite' and, of course, 'perovskite'.
+
+The atomic packing within these structures is fully described by their space-group, of which there are 230 to choose from. These space groups take the crystallographic (periodic structure) compatible point groups, and combine them with different possible lattice vectors.
+
+http://img.chem.ucl.ac.uk/sgp/large/sgp.htm
+
+Some structures are fiendishly complicated, others are effectively cubic grids (perhaps with lattice vectors which are neither orthogonal nor equal in length). Even very complicated structures often have a sub lattice which packs cubically, or with hexagonal close packing.
+
+One of the perhaps surprising things is that hexagonal packing and cubic packing are extremely similar to one other - in particular cubic (BCC and FCC) and hexagonal close packing both have a coordination number of 12. Each sphere (atom) has 12 nearest neighbours.
+
+This is very useful, when you are building a computer model for a large structure. You can store the data about site occupancy in a simple array[][][], and calculate various necessary metrics (in particular real space distance vectors) via simple (i.e. free, in terms of computer time) arithmetic.
+
+I came across an article on hexagonal grids today; much of it was startling familiar, but in that way that it was giving you a framework and lexicon for understanding for what you'd hacked together with a partial glimpse of true understanding.
+
+(It's written from the perspective of a games developer, but it's directly applicable to scientific computation - just don't tell the Research Councils how similar our austere science is to a game engine!)
+
+http://www.redblobgames.com/grids/hexagons/
+
+via HN discussion https://news.ycombinator.com/item?id=8941588

@@ -1,0 +1,14 @@
+baseurl = "http://jarvist.github.io/"
+languageCode = "en-GB"
+title = "Jarvist Moore Frost: Academic blog"
+canonifyurls = true
+
+[params]
+
+[author]
+    name = "Jarvist Moore Frost"
+    twitter = "jarvistfrost"
+    github = "jarvist"
+    githubUrl="http://github.com/jarvist"
+
+# contactEmail="j.m.frost@bath.ac.uk"

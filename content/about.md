@@ -70,17 +70,22 @@ Scholar](https://scholar.google.co.uk/citations?user=qNlfsFEAAAAJ&hl=en), or via
 ### This blog & other presence
 
 This is my academic (mainly!) blog. It used to be on wordpress, at
-<https://jarvistmoorefrost.wordpress.com>. Files were extracted to a plain text Markdown
-format, and are now published with [Hugo](https://gohugo.io/) with the `nofancy` theme (slightly
-tweaked). I moved this blog from wordpress as I had grown irritated with the
-editing experience, and I hope that being able to edit and push from the
-command line would get me blogging more regularly.
+<https://jarvistmoorefrost.wordpress.com>. 
+Files were extracted to a plain text Markdown format, and are now published
+with [Hugo](https://gohugo.io/) with the `nofancy` theme (slightly
+tweaked). 
+I moved this blog from Wordpress to GitHub pages as I had grown irritated with
+the online-only editing experience (in particular their new 'Web 2.0'
+experience). 
+I hope that being able to edit and push from the command line will get me
+blogging more regularly.
 
 In January 2016 I started using a Google+ 'Collection' to publish [reviews of
 Electronic Structure Theory books](https://plus.google.com/collection/wKpRZB).
 
 Outside academics, I have less and less time for riding bicycles, sailing,
-diving and exploratory caving. But the little I have written up, is accessible 
-at <https://jarvbites.wordpress.com/>.
+diving and exploratory caving. 
+But the little I have written up, is accessible at
+<https://jarvbites.wordpress.com/>.
 
 <| What Would Dirac Do [WWDD] ? |>

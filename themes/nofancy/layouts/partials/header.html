@@ -5,6 +5,10 @@
   <title>{{ .Title }}</title>
   <meta name="description" content="{{ .Title }}">
   <meta name="author" content="{{ .Site.Author.name }}">
+  {{ if .RSSlink }}
+  <link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+  <link href="{{ .RSSlink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
+  {{ end }}
   <!-- Mobile Specific Metas –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- FONT –––––––––––––––––––––––––––––––––––––––––––––––––– -->

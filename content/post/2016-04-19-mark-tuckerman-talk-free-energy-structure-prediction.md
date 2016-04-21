@@ -4,8 +4,8 @@ draft = false
 title = "Mark Tuckerman talk: Free energy based structure prediction"
 +++
 
-Mark Tuckerman (MET) visited London on the 31st March 2016, and gave a highlight seminar
-to the TYC at UCL. 
+Mark Tuckerman (MET) visited London on the 31st March 2016, and gave
+a highlight seminar to the TYC at UCL. 
 I had been really enjoying his recent (2010) Computational Stat Mech book [1]. 
 I know very little about structure prediction, but it is of general and
 captivating interest, and an essential step in truly predictive computational
@@ -30,22 +30,24 @@ The method started off fairly standard. As general force fields are too coarse,
 and quantum mechanical calculations too expensive, a customised force field was
 developed. QC calculations on dimers were used to parameterise, with a fairly
 normal `PBE0+TS; 6-311g**(d,p)`. 
-Unit cells were generated with `UPACK`, a software package I had not heard of,
-but which seems pretty extensive [3]. 
+25000 Unit cells were generated with `UPACK`, a software package I had not
+heard of, but which seems pretty extensive [3]. 
 
 MD (I think just vanilla) on the packed structures lead to trajectories where
 interconversion from one structure to another could be seen. Eventually they
-settled down to 50 leftover structures, plotted on an energy vs. density plot. 
+settled down to 50 (lowest energy?) structures, plotted on an energy vs.
+density plot.  
 Their 4th lowest energy structure agreed with the 'blind' experimental
 structure. 
+Mark was more pleased with having found a lot of low lying polymorphs. 
 
 So far so good for an interesting seminar, and a laudable result - but this is
 where it got really interesting.
 
 Mark linked from structure prediction to protein folding via a 2004 PNAS [4],
 which proposed that both problems are essentially the same. 
-In both cases you have a rough energy landscape, and you need to determine the
-occupancy of the basins. 
+You have a rough energy landscape, you need to determine the occupancy of the
+basins. 
 
 ## Collective variables
 
@@ -71,8 +73,11 @@ Mark described it as essentially being an additional (standard) equation of
 motion being simultaneously solved, in the collective variables. 
 A very large fictitious mass is used for the collective-variable centre, and
 a separate thermostat (~32000 K was an example). 
-This means that the collective variables have the energy to hop potential
-barriers between minima, and the momentum to smoothly move between them. 
+This physically means that the collective variables have the energy to hop
+potential barriers between minima, and the momentum to smoothly move between
+them.
+The large difference in mass allows for an adiabatic decoupling of the
+Equations of Motion. 
 
 I did not realise that temperature accelerated MD was this conceptually simple. 
 
@@ -83,7 +88,7 @@ basins and escape to the next one. To get the free energy, once you've filled
 all the basins you invert the Gaussians and this gives you the free energy
 surface. 
 
-## Protein folding: Alanine Decamers between alpha helix and beta hairpin
+### Protein folding: Alanine Decamers between alpha helix and beta hairpin
 
 Accelerated MD on this as a model system (I think with the CHARMM forcefield),
 with the Ramachandran variables (20 collective variables).
@@ -97,7 +102,7 @@ I found a 2014 YouTube video containing the MD, but the extraction of free
 energy seems a bit different:
 https://youtu.be/WKpe8fzATr4?t=21m38s
 
-## Polymorphic benzene
+### Polymorphic benzene
 
 Separately they studied polymorphs of benzene. 
 The 'h' matrix (lattice basis) was explicitly evolved in the EoM, dragging
@@ -108,7 +113,7 @@ found all the polymorphs.
 
 This is explored in [8], and MET references thereafter. 
 
-## Melting Copper
+### Melting Copper
 
 Melting Cu, with collective variables on the diagonal of `h`; and
 a Q4, Q6 spherical harmonic 'bond order'. 
@@ -118,7 +123,7 @@ Here they looked at classical nuclear theory.
 The simulations showed a more complex story - the hot solid had defects which
 were highly mobile. Defects formed clusters to minimise their free energy
 
-## Navigating on a high dimensional surface
+### Navigating on a high dimensional surface
 
 You can't visualise the surface - it is too high in dimension. But you want to
 see the 'interesting' minima and saddle points. 
@@ -141,6 +146,11 @@ The power of integrating the EoM for a collective variable & so ride roughshod
 across a rough potential energy landscape with the ability to extrapolate free
 energies is clearly fantastically powerful.
 
+One bit of black magic that I do not understand, is where the force
+acting on the collective variables comes from. 
+Some kind of potential defined in the collective variables? By direct coupling
+between the atomistic positions and the collective variables?
+
 However, I felt that everything presented seemed a little clunky. 
 Certainly the science was fantastic, but every example seemed to have been set
 up slightly differently and individually by the researchers. 
@@ -153,7 +163,7 @@ In a paper I've been reading recently [12], the authors of VoroTop introduce
 a method to identify local structure independent of radial distribution
 functions and bond orders. Instead they define the 3D Voronoi cell for individual
 atoms, and then compare the isomorphism (or not!) of the 2D Schlegel diagram
-(i.e. a graph of connectivity of the Voronoi vertices) to identify
+(i.e. a planar graph of connectivity of the Voronoi vertices) to identify
 topologically distinct local bonding. 
 I wonder if some ideas from here, could be borrowed and used to construct
 collective variables automatically.

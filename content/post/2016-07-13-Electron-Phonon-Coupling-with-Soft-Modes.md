@@ -79,12 +79,12 @@ large range of motion of a soft mode makes up the majority electron phonon
 coupling. 
 
 So to try and calculate this parameter, let us start by making the
-Born-Oppenheimer approximation of separating the full wavefunction \\(\Psi\\)
-into a product of electron \\(\psi\\) and nuclear \\(\chi\\) parts, within the
+Born-Oppenheimer approximation of separating the full wavefunction \\(\Phi\\)
+into a product of electron \\(\Psi\\) and nuclear \\(\chi\\) parts, within the
 (assumed independent) normal mode we are interested in, Q. 
 
 <div>
-$$ \Phi(r,Q) = \Psi(r; Q) \, \chi(Q)$$
+$$ \Phi(r,\,Q) = \Psi(r;\, Q) \, \chi(Q)$$
 </div>
 
 The nuclear \\(\chi\\) wavefunction depends only on the normal mode coordinate,
@@ -150,7 +150,8 @@ A distinct drawback is that we're currently evaluating for just one arbitrary
 location in the vibrational Brillouin-Zone of the material. There's an explicit
 phase term (i.e. location in q-space) which is chosen to then generate
 real-space distortions in Q to enable the calculation of the electronic
-structure. It is well known that the electron-phonon interaction should be
+structure (and so both the electron deformation potential, and nuclear vibrational potential). 
+It is well known that the electron-phonon interaction should be
 integrated across the full Brillouin-Zone in both vibrational (q) and
 electronic (k) phase space, and that convergence of this summation is nasty as
 the electronic-phonon coupling is very spiky. 

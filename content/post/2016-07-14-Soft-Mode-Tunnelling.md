@@ -27,8 +27,8 @@ dynamics, your nuclear coordinate is classical.
 However, there is, of course, also quantum mechanical tunnelling directly
 through the barrier. 
 The boss ([@lonepair](https://twitter.com/lonepair)) asked me to consider
-whether this rate was easily calcuable, to complement the considerable
-soft-phonon work occuring in the group. 
+whether this rate was easily calculable, to complement the considerable
+soft-phonon work occurring in the group. 
 
 To calculate this rate, there are a number of different approaches you could
 take. 
@@ -47,7 +47,7 @@ the degeneracy.
 Our Hamiltonian is time independent, which means that we can use our eigenstates as a basis
 $$\Psi_n(Q,t) = \Psi_n(Q).e^{-i \omega_n t}$$
 
-As expected, the time-dependence of this wavefunction just leads to a phase term (entirely imaginary dependence on \\(t\\), as the \\(\Psi_n\\) are eigenstates of a time-independent Hamiltonian. The states will just beat at a characteristic frequency.
+As expected, the time-dependence of this wavefunction just leads to a phase term (entirely imaginary dependence on \\(t\\)), as the \\(\Psi_n\\) are eigenstates of a time-independent Hamiltonian. The states will just beat at a characteristic frequency.
 
 So let's construct a wavepacket of \\(\Psi_1\\) and \\(\Psi_2\\).
 
@@ -85,7 +85,7 @@ $$ \lvert\Psi_1\rangle \;\rightarrow\;
 \lvert\Psi_2\rangle \;\rightarrow\; 
 \lvert\Psi_2\Psi_1\rangle \;\circlearrowright$$
 
-The \\(\Psi_1\\) and \\(\Psi_2\\) states are delocalised between the two wells,
+The \\(\Psi_1\\) and \\(\Psi_2\\) states are de-localised between the two wells,
 but as these are Even and Odd wavefunctions, the combinations will be localised
 in state 1 and state 2.
 
@@ -104,9 +104,9 @@ $$\tau = \frac{E_2-E_1}{\pi\hbar}$$
 So really quite trivial! The time constant of beating between the states
 (tunnelling through the potential barrier) is directly related to the degeneracy
 splitting of the states. 
-This makes sense, becaus from a semi-classical picture, the degeneracy
-splitting is linked to the magnitude of the transfer, or wavefunction overlap,
-integral between state 1 and 2.
+This makes sense as in the semi-classical picture, the degeneracy splitting is
+linked to the magnitude of the transfer (wavefunction overlap) integral
+between state 1 and 2.
 
 I was initially concerned that there was no mass term here---obviously mass
 should come into the time constant of tunnelling! But it is there, hidden in the

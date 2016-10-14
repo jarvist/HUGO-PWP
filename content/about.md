@@ -31,17 +31,18 @@ Solar cells (formally called photovoltaics, as they generate electrical voltage
 from photons of light) are a beautifully simple engine that silently run on
 sunlight and thermodynamics to produce electrical power. There are no parts to
 wear out, no bearings to service, no oil to change. The only problem is that
-the solar resource is not very concentrated — bright sunlight is about
-a kilowatt per metre squared. So you have to build big panels to produce
-a meaningful amount of energy.
+the solar resource is not very concentrated — bright sunlight provides about
+a kilowatt of power per metre squared. 
+So you have to build big panels (and cover a not insignificant land area) to
+produce a meaningful amount of energy.
 
 Our present best technology for making photovoltaics is based on Silicon. This
 is an abundant material (sand is mainly Silicon Dioxide), but forming pure
 Silicon requires a lot of energy, and making Silicon solar panels requires
-vacuum processing and some pretty nasty chemicals which keeps the cost
-relatively high.
+vacuum processing and some pretty nasty chemicals which keeps the cost, and
+environmental burden, relatively high.
 
-My research is in trying to understand and design new materials for solar
+My research is directed towards trying to understand and design new materials for solar
 cells. By using computational chemistry and materials science techniques we try
 to understand how novel solar cells work (in particular, what limits their
 efficiency or longevity), and how we can make them better. These new solar
@@ -59,10 +60,12 @@ these models and understanding the limits of the techniques available, is what
 I spend the majority of my time doing.
 
 At Bath I am in the Chemistry Department, funded under the EPSRC Programme
-Grant Energy Materials: Computational Solutions,
-working in the Walsh Material Design group. So far the majority of my
-computer time has been provided by EPSRC on the new Cray XC30 supercomputer
-ARCHER.
+Grant "Energy Materials: Computational Solutions". 
+Physically I am a long-term academic visitor at Imperial College London,
+working in the Materials Department, Walsh Material Design group. 
+The majority of my computer time has been provided by EPSRC on the Cray
+XC30 supercomputer ARCHER, and by the University of Bath and Imperial College
+London on their internal systems..
 
 You may find my academic papers on [Google
 Scholar](https://scholar.google.co.uk/citations?user=qNlfsFEAAAAJ&hl=en), or via my [ORCID ID](http://orcid.org/0000-0003-1938-4430).
@@ -76,7 +79,7 @@ with [Hugo](https://gohugo.io/) with the `nofancy` theme (slightly
 tweaked). 
 I moved this blog from Wordpress to GitHub pages as I had grown irritated with
 the online-only editing experience (in particular their new 'Web 2.0'
-experience). 
+experience made my laptop overheat!). 
 I hope that being able to edit and push from the command line will get me
 blogging more regularly.
 

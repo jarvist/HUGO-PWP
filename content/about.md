@@ -17,7 +17,7 @@ Royal School of Mines
 Exhibition Road  
 London, SW7 2AZ - UK
 
-### Research Statement
+### Research statement
 
 Over 122 Petawatts of solar power reach the Earth's surface. This figure is
 vastly greater than humanity's total power requirement.  
@@ -77,7 +77,7 @@ Materials, Imperial College London.
 So far the majority of my computer time has been provided by EPSRC on the new
 Cray XC30 supercomputer ARCHER.
 
-### This blog & other presence
+### This blog & other online presence
 
 This is my academic (mainly!) blog. It used to be on Wordpress, at
 <https://jarvistmoorefrost.wordpress.com>. 
@@ -96,7 +96,8 @@ Electronic Structure Theory books](https://plus.google.com/collection/wKpRZB).
 You may find my academic papers on [Google
 Scholar](https://scholar.google.co.uk/citations?user=qNlfsFEAAAAJ&hl=en), or via my [ORCID ID](http://orcid.org/0000-0003-1938-4430).
 
-On Twitter I'm [@JarvistFrost](https://twitter.com/JarvistFrost).
+On Twitter I'm [@JarvistFrost](https://twitter.com/JarvistFrost). 
+Find my Molecular Dynamics videos on  [YouTube](https://www.youtube.com/user/jarvist1984/)
 
 Outside academics, I have less and less time for riding bicycles, sailing,
 diving and exploratory caving. 

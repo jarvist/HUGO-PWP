@@ -99,10 +99,13 @@ Scholar](https://scholar.google.co.uk/citations?user=qNlfsFEAAAAJ&hl=en), or via
 
 On Twitter I'm [@JarvistFrost](https://twitter.com/JarvistFrost). 
 Find my Molecular Dynamics videos on  [YouTube](https://www.youtube.com/user/jarvist1984/)
+I try and put my conference slides on
+[SpeakerDeck](https://speakerdeck.com/jarvist), as and when I've had time to
+redact any unpublished experimental data of collaborators. 
 
 Outside academics, I have less and less time for riding bicycles, sailing,
 diving and exploratory caving. 
 But the little I have written up, is accessible at
 <https://jarvbites.wordpress.com/>.
 
-<| What Would Dirac Do [WWDD] ? |>
+[<| What Would Dirac Do [WWDD] ? |>](http://people.bath.ac.uk/jmf45/wwdd.html)

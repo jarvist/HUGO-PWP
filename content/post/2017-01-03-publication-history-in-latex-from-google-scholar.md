@@ -31,14 +31,23 @@ chronological).
 See `sorting` and `style` options here: (https://www.sharelatex.com/learn/Bibliography_management_with_biblatex)
 
 3) However, my TeX installation was missing `biber`. (In a sort of
-broken-package, what on earth have I done to Debian kind of way.). So using the
-more traditional `bibtex`, you are left with using an unsorted bibliography and
-enforcing the order by hand. 
+broken-package, what on earth have I done to Debian kind of way.) 
 
-From inspection, the Google `.bibs` are mostly chronological (pre 2010 seemed
-less ordered, I guess recent entries have been appended as they were
-published), so it didn't take me too long to reorder it correctly. (I needed to
-delete some spurious entries anyway.)
+So I decided to use the more primitive `bibtex`, with an 'unsrt' (unsorted) bibliography. 
+
+This then just lists the items in the order they are present in the `.bib` file.
+
+My Google Scholar `.bib` was mostly chronological (pre 2010 seemed
+less ordered, I suppose recent entries have been appended as they were
+published). 
+
+This meant it didn't take too long to reorder it correctly. 
+
+(I also needed to delete some spurious entries.)
+
+4) My LaTeX file listing the journal articles, was piece together from bits of
+tex.stackexchange, and the important bit read as follows (my bib file was
+`PublicationsFull.bib`):
 
 ```
 \subsection*{Journal articles}

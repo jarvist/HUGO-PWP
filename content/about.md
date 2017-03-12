@@ -4,7 +4,8 @@ draft = true
 title = "Jarvist Moore Frost"
 +++
 
-{{< figure style="float: left;" src="/images/JarvistMooreFrost_Dec2010_FP4_CanonA1_Mirror_Square_256px.jpg"
+{{< figure style="float: left;"
+src="/images/JarvistMooreFrost_Feb2017_SonyA1_RedJumper_Square_250px.jpg"
 title="Dr Jarvist Moore Frost" >}}
 
 **Electronic Mail:** Jarvist.Frost@imperial.ac.uk

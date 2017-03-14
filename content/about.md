@@ -1,6 +1,6 @@
 +++
 date = "2017-01-01T01:16:34+01:00"
-draft = true
+draft = false 
 title = "Jarvist Moore Frost"
 +++
 
@@ -20,14 +20,13 @@ London, SW7 2AZ - UK
 
 ### Research statement
 
-Over 122 Petawatts of solar power reach the Earth's surface. This figure is
-vastly greater than humanity's total power requirement.  
-(Which is 15 Terawatts, while still a crazy big number, is only 0.015 Petawatts.)
+Over 122 Petawatts of solar power reach the Earth's surface. 
+This figure is vastly greater than humanity's total power requirement (15
+Terawatts).  
 
-Long term I think it is inevitable that all of our power will be solar power.
-60 GWp of solar power was installed during 2016, the growth is currently
-exponential.  
-All the energy in fossil fuels is essentially ancient sunlight, captured
+Long term (in a century or two) I think it is inevitable that all of our power will be solar power.
+76 GWp of solar power was installed during 2016, the growth is currently
+exponential.  All the energy in fossil fuels is essentially ancient sunlight, captured
 by inefficient photosynthesis and geological happenstance.
 
 Solar cells (formally called photovoltaics, as they generate electrical voltage
@@ -100,7 +99,7 @@ Scholar](https://scholar.google.co.uk/citations?user=qNlfsFEAAAAJ&hl=en), or via
 
 On Twitter I'm [@JarvistFrost](https://twitter.com/JarvistFrost). 
 Find my Molecular Dynamics videos on  [YouTube](https://www.youtube.com/user/jarvist1984/)
-I try and put my conference slides on
+I try and put my conference and tutorial slides on
 [SpeakerDeck](https://speakerdeck.com/jarvist), as and when I've had time to
 redact any unpublished experimental data of collaborators. 
 

@@ -36,14 +36,15 @@ miliseconds) needs 99.999%+ pure materials.
 
 **The key thing** to remember with optical characterisation is that even
 a standard bench-top solid-state laser is *INCREDIBLY* bright. It's very easy
-to do a measure at the equivalent of a million or a billion Sun equivalents.
-This is well outside the regime where any solar cell (even under a lens / light
+to do a measure at the equivalent of a million or a billion Suns.
+This is well outside the regime where any solar cell (even under light
 concentrator) will be operating, and this can massively change the photophysics
 in operation. If the authors do not tell you what equivalent number of suns
 they are at, try and calculate it yourself from the laser spot size, absorption
-coefficient, laser intensity etc. Experimentalists don't do this out of spite
-or foolishness, but because they need to have sufficient signal-to-noise ratio
-to measure a signal.  
+coefficient, laser intensity / pulse energy, etc. 
+Experimentalists don't measure at such crazy intensities out of spite or
+foolishness, but because they need to have sufficient signal-to-noise ratio
+to measure a signal, i.e. the volume is turned right up to be able to hear it.   
 
 * 'UV/Vis' (where does the material absorb?); better measures are with an integrating
 sphere / total scattering, use of a scattering medium to get the SNR to find
@@ -54,11 +55,12 @@ the Bg;
 * 'quench-studies' (where you kill the light emission by adding an electron donor
 / acceptor to probe how long lived / mobile the excitons / generated charges
 are); 
-* Time-resolved Microwave Conductivity (TRMC) / time-resolved teraherz
+* Time-resolved Microwave Conductivity (TRMC) / time-resolved terahertz
 spectroscopy - see changes in conductivity as a function of time, infer
 mobility from estimating number of free charges; 
 * Hall-effect measurement
-(identify whether material is n or p type, and approximate doping);
+(identify whether material is n or p type, and approximate doping), infer
+mobility;
 * work-functions via Cyclic voltammetry (in electrolyte, easy experiment) or
 UPS/XPS + Band gap
 

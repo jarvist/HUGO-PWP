@@ -1,1 +1,1 @@
-hugo --theme=nofancy --buildDrafts 
+hugo --theme=academic --buildDrafts 

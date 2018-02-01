@@ -1,1 +1,1 @@
-hugo server --theme=nofancy --buildDrafts --watch
+hugo server --theme=academic --buildDrafts --watch

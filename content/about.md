@@ -12,11 +12,10 @@ title="Dr Jarvist Moore Frost" >}}
 
 **Postal Address:** 
 Dr Jarvist Moore Frost  
-Department of Materials  
-Imperial College London  
-Royal School of Mines  
-Exhibition Road  
-London, SW7 2AZ - UK
+Department of Physics 
+King's College London  
+Strand
+London, WC2R 2LS - UK
 
 ### Research statement
 
@@ -70,11 +69,11 @@ requiring new methods to be developed, and toy models to be devised.
 Validating (against reality) these models and understanding the limits of the
 techniques available, is what I spend the majority of my time doing.
 
-At Bath I am in the Chemistry Department, funded under the EPSRC Programme
-Grant Energy Materials: Computational Solutions, working in the Walsh Material
-Design group. 
-Since September 2016 I have been physically based in the Department of
-Materials, Imperial College London.  
+Previously I was a PostDoc on the EPSRC Programme Grant Energy Materials:
+Computational Solutions, working in the Walsh Material Design group (Department
+of Chemistry, University of Bath; then Department of Materials, Imperial
+College London). 
+
 So far the majority of my computer time has been provided by EPSRC on the new
 Cray XC30 supercomputer ARCHER.
 

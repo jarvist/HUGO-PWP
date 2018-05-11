@@ -10,6 +10,7 @@ tags:
 - bitbucket
 - gnuplot
 - writing
+- highlight
 ---
 
 (Updated 2016-03-12 to re-add the links)

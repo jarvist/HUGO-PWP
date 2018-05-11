@@ -1,6 +1,7 @@
 ---
 author: jarvistmoorefrost
 comments: true
+highlight: true
 date: 2017-09-08 14:29:00+00:00
 layout: post
 title: A note on Schultz 

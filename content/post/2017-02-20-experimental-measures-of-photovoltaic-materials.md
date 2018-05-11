@@ -2,6 +2,8 @@
 author: jarvistmoorefrost
 comments: true
 date: 2017-02-20 12:29:00+00:00
+tags: 
+- highlight
 layout: post
 title: Experimental measures of photovoltaic materials 
 ---

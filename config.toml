@@ -10,7 +10,7 @@ title = "Jarvist Moore Frost"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
-copyright = "&copy; 2018"
+copyright = "&copy; 2012--2018"
 
 theme = "academic"
 enableEmoji = false
@@ -29,6 +29,10 @@ googleAnalytics = ""
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 
+# Get last modified date for content from Git?
+enableGitInfo = false
+
+
 [outputs]
   home = [ "HTML", "CSS", "RSS" ]
   section = [ "HTML", "RSS" ]
@@ -37,7 +41,7 @@ defaultContentLanguageInSubdir = false
 #   See: https://gohugo.io/readfiles/bfconfig/
 [blackfriday]
   hrefTargetBlank = true  # `true` opens external links in a new tab.
-  fractions = true  # `false` disables smart fractions (e.g. 5/12 formatted as a fraction).
+  fractions = false # `false` disables smart fractions (e.g. 5/12 formatted as a fraction).
   smartypants = true  # `false` disables all smart punctuation substitutions (e.g. smart quotes, dashes, fractions).
 
 [params]
@@ -55,12 +59,12 @@ defaultContentLanguageInSubdir = false
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ {name="King's College London", url=""}, { name = "Imperial College London", url = "" }]
+  organizations = [ {name="GTN.ai", url="https://gtn.ai/"}, { name = "Imperial College London", url = "" }]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "JarvistMooreFrost_Feb2017_SonyA1_RedJumper_Square_250px.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "jarvist.frost@ic.ac.uk"
-  address = "Department of Physics, King's College London, Strand, London WC2R 2LS, U.K." 
+  address = "GTN.ai, The Bower, 207 Old Street, London EC1V 9NR, U.K." 
   office_hours = "Email for appointment"
   phone = ""
   skype = ""
@@ -149,7 +153,7 @@ defaultContentLanguageInSubdir = false
   # highlight_style = "github"
 
   # Enable native social sharing buttons?
-  sharing = true
+  sharing = false 
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
@@ -216,12 +220,12 @@ defaultContentLanguageInSubdir = false
 
   [[params.social]]
     icon = "envelope"
-    icon_pack = "fa"
+    icon_pack = "fas"
     link = "mailto:jarvist.frost@ic.ac.uk"
 
   [[params.social]]
     icon = "twitter"
-    icon_pack = "fa"
+    icon_pack = "fab"
     link = "//twitter.com/JarvistFrost"
 
   [[params.social]]
@@ -231,7 +235,7 @@ defaultContentLanguageInSubdir = false
 
   [[params.social]]
     icon = "github"
-    icon_pack = "fa"
+    icon_pack = "fab"
     link = "//github.com/jarvist"
 
 
@@ -272,6 +276,15 @@ defaultContentLanguageInSubdir = false
   name = "Contact"
   url = "#contact"
   weight = 6
+
+# Search.
+[params.search]
+  # Search provider:
+  #   0: No search engine
+  #   1: Built-in (Fuse)    # massive performance penality if large site: runs in web browser(!)
+  #   2: Algolia (https://www.algolia.com)
+  engine = 0 
+
 
 # Taxonomies.
 [taxonomies]

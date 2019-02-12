@@ -17,11 +17,12 @@ I use the codecogs Latex renderer for bits of maths and physics (18pt / 300 / wh
 
 I often find myself dragging and dropping .pngs directly from a directory of post-processing codes to make up a talk. All my Python codes which plot to Matplotlib now automatically save figures they generate as PDFs and PNGs, with a name that ensures they don't overwrite each other & you can cross reference to commit versions in the future. This I have found so incredibly useful, barely remembered runs of old codes and datasets are sitting there with 'talk ready' images.
 
-` import datetime
+``` 
+import datetime
 now=datetime.datetime.now().strftime("%Y-%m-%d-%H%M") #String of standardised year-leading time
 fig.savefig("%s-LongSnakeMoan.pdf"%now) #Save figures as both PDF and easy viewing PNG (perfect for talks)
 fig.savefig("%s-LongSnakeMoan.png"%now)
-`
+```
 
 Previously I made talks with OpenOffice / LibreOffice (Horrible, buggy experience) and Latex/Beamer (too slow to include figures, horrific / absent control about where to place elements. Leave it for the mathematicians!)
 

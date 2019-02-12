@@ -33,12 +33,25 @@ One serious issue with it is that it regular wakes from sleep in my bag (and som
 
 [https://bbs.archlinux.org/viewtopic.php?id=146852](https://bbs.archlinux.org/viewtopic.php?id=146852)
 
+```
+# echo LID > /proc/acpi/wakeup
+```
 
+2019-02 Addendum:
 
+I'm still using the X220! It's starting to feel quite old - but the keyboard is
+so much more pleasant than any other modern laptop, that I'm holding on for as
+long as possible. 
 
+I upgraded the screen to an IPS in summer 2016. Wasn't too difficult, but I nearly
+destroyed the ribbon cable removing the old screen (which would have been
+terminal). 
+I've added a mSATA drive. 
 
-    
-    <code># echo LID > /proc/acpi/wakeup</code>
-
-
+I have a mini-DP to HDMI adapter for conferences with swanky displays. 
+The onboard graphics can push quite an impressive signal, but with relatively
+low performance + having the fan being on constantly. 
+At home, I use it with a 2560x1440 external monitor (portrait mode, natch
+- Dell Ultrasharp 25), but the constant fan and screen-tearing when scrolling
+  makes it suboptimal. 
 

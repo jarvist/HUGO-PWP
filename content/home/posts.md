@@ -15,16 +15,17 @@ weight = 40
 #  By default, show all recent posts.
 #  Filtering example: `tags_include = ["hugo", "academic"]`
 
-tags_include = ["highlight"]  
+#tags_include = ["highlight"]  
 # I have to pull out by a tag; otherwise widget crashed
 tags_exclude = []
 
 # Number of posts to list.
-count = 5
+count = 10 
 
 # List format.
 #   0 = Simple
 #   1 = Detailed
-list_format = 1
+#   2 = stream , i.e. as /post page
+list_format =  0 
 +++
 

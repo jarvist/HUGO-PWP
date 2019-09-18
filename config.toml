@@ -10,7 +10,7 @@ title = "Jarvist Moore Frost"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
-copyright = "&copy; 2012--2018"
+copyright = "&copy; 2012--2019"
 
 theme = "academic"
 enableEmoji = false
@@ -20,6 +20,7 @@ preserveTaxonomyNames = true
 paginate = 100
 
 # Enable comments by entering your Disqus shortname
+
 disqusShortname = ""
 
 # Enable analytics by entering your Google Analytics tracking ID
@@ -59,12 +60,12 @@ enableGitInfo = false
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ {name="GTN.ai", url="https://gtn.ai/"}, { name = "Imperial College London", url = "" }]
+  organizations = [ { name = "Imperial College London", url = "" }, {name="GTN.ai", url="https://gtn.ai/"}] 
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "JarvistMooreFrost_Feb2017_SonyA1_RedJumper_Square_250px.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "jarvist.frost@ic.ac.uk"
-  address = "GTN.ai, The Bower, 207 Old Street, London EC1V 9NR, U.K." 
+  address = "The Blackett Laboratory, Department of Physics, Imperial College London, London SW7 2BB, U.K." 
   office_hours = "Email for appointment"
   phone = ""
   skype = ""
